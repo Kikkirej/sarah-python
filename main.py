@@ -10,7 +10,7 @@ class Kontakt:
         self.Mail = Mail
 
     def __str__(self):
-        return self.Vorname + "," + self.Nachname + "," + self.Telefonnummer + "," + self.Mail
+        return self.Vorname + "," + self.Nachname + "," + self.Telefonnummer + ", " + self.Mail
 
 
 # Kontakte hinzufügen = a / Kontakte suchen = s / Programm beenden = b
